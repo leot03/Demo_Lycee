@@ -1,18 +1,20 @@
 <?php
 
-require_once '../Modele/creationEtudiant.php';
 
-$unePromo = new ModeleEtudiant();
+require_once 'config.inc.php';
 
-if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') == 'GET') {
-    $action = filter_input(INPUT_GET, "action");
-    switch ($action) {
-        case 'remplirEtudiant':       
-            $promotion = filter_input(INPUT_GET, 'promotion');
-            if (isset($promotion)) {
-                echo 'une promo';
-                echo $unePromo->Etudiant($promotion);
-            }
-            break;
+class Modele {
+
+    protected $_bdd;
+
+    public function __construct() {
+        try {
+            $pdoOptions = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
+            $this->_bdd = new PDO('mysql:host=' . SERVEURBD . ';dbname=' . 
+                    NOMDELABASE, LOGIN, MOTDEPASSE, $pdoOptions);
+            // echo 'BDD ouverte';
+        } catch (PDOException $ex) {
+            die('<br />Pb connexion serveur BD : ' . $ex->getMessage());
+        }
     }
 }

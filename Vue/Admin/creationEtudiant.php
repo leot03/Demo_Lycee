@@ -8,6 +8,7 @@
         <script src="../../libs/jquery/jquery.min.js" type="text/javascript"></script>
         <script src="../../libs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="../../libs/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+        <script src="../js/creationEtudiantAutoCompletion.js" type="text/javascript"></script>
         <title>Administration</title>
     </head>
     <body>
@@ -38,7 +39,7 @@
                     </div>
                     <div class="mt-1 col" style="float: right">
                         <input type="button" class="btn btn-primary"  value="Importer" id="importer"> 
-                        <input type="button" class="btn btn-primary"  value="Visualiser liste étudiants" id="creer"> 
+                        <input type="button" class="btn btn-primary"  value="Visualiser liste étudiants" id="creer" onclick="clickMe()"> 
                     </div>
                 </fieldset>
             </form>
@@ -52,16 +53,13 @@
                         <div class="col"></div>
                         <button type="button" class="btn btn-primary col ml-1" style="float: right" value="" id="ajouter" data-bs-toggle="modal" data-bs-target="#creationEtudiant" id="creer">
                             Ajouter un étudiant
-                        </button>                  
+                        </button>
                     </div>
-                    <table id="liste-etudiants" class="table table-borderless table-responsive card-1 p-4">
-                        <tr class="border-bottom">
-                            <th><span class="ml-2">Nom</span></th>
-                            <th><span class="ml-2">Prenom</span></th>
-                            <th><span class="ml-2">Login</span></th>
-                            <th><span class="ml-2">Mot de passe</span></th>
-                        </tr>     
-                    </table>
+                    <?php
+                    require_once '../../Modele/creationEtudiant.php';
+                        $etudiants = new ListEtudiant();
+                        $etudiants->obtenirListeEtudiant();
+                    ?>
                 </fieldset>
             </div>
             <!-- Boite modale -->
