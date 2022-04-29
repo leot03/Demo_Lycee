@@ -1,5 +1,5 @@
-# titre du dépot
+# Mini Projet
 
-présentation du dépot
+Léo THOMAS
 
-ajout d'une ligne
+Exercice : Étudiant 2
