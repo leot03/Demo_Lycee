@@ -17,4 +17,4 @@
 * **Léo THOMAS** [@leot03](https://github.com/leot03)
 * **Teddy CORBILLON** [@TeddyCorbillon](https://github.com/TeddyCorbillon)
 * **Thomas SOULAIMANA** [@tsoulaimana](https://github.com/tsoulaimana)
-* **Ethan GAUDREE**
+* **Ethan GAUDREE** [@EthanGaudree](https://github.com/EthanGaudree)
