@@ -38,8 +38,8 @@
                         </div> 
                     </div>
                     <div class="mt-1 col" style="float: right">
-                        <input type="button" class="btn btn-primary"  value="Importer" id="importer"> 
-                        <input type="button" class="btn btn-primary"  value="Visualiser liste étudiants" id="creer" onclick="clickMe()"> 
+                        <input type="button" class="btn btn-primary" value="Importer" id="importer"> 
+                        <input type="text" class="btn btn-primary" value="Visualiser liste étudiants" id="affichageTableau"> 
                     </div>
                 </fieldset>
             </form>

@@ -1,8 +1,15 @@
+//$(document).ready(function(){
+//  $("#hide").click(function(){
+//    $("#etudiant").hide(1100);
+//  });
+//  $("#show").click(function(){
+//    $("#etudiant").show();
+//  });
+//});
+
 $(document).ready(function(){
-    $('#etudiant').click(function) {
-        $("#").hide();
-    });
-    
-    $("#").click(function() {
-        $('h1').show();
-    })
+   $("#etudiant").hide();
+  $("#affichageTableau").click(function(){
+    $("#etudiant").toggle(500);
+  });
+});
