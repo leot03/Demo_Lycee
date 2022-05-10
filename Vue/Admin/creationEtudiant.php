@@ -24,6 +24,7 @@
                         <div class="mb-1 mt-3 col">
                             <label for="promotion" class="form-label">Promotion :
                                 <input type="text" class="form-control" id="promotion" placeholder="Exemple SNIR2022" name="promotion">
+                                <div id="suggest"></div>
                             </label>
                         </div>
                         <div class="mb-1 mt-3 col" >

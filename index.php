@@ -7,7 +7,7 @@
         <link href="Vue/css/ficheAcueil.css" rel="stylesheet" type="text/css"/>
         <script src="libs/jquery/jquery.min.js" type="text/javascript"></script>
         <script src="libs/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        <title></title>
+        <title>Mini Projet</title>
     </head>
     <body>
         <?php

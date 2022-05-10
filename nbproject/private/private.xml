@@ -14,9 +14,8 @@
         <group>
             <file>file:/home/USERS/ELEVES/SNIR2021/lthomas/public_html/snir/Vue/js/creationEtudiantAutoCompletion.js</file>
             <file>file:/home/USERS/ELEVES/SNIR2021/lthomas/public_html/snir/Vue/Admin/creationEtudiant.php</file>
-            <file>file:/home/USERS/ELEVES/SNIR2021/lthomas/public_html/snir/Vue/Commun/menu.php</file>
-            <file>file:/home/USERS/ELEVES/SNIR2021/lthomas/public_html/snir/Modele/creationEtudiant.php</file>
-            <file>file:/home/USERS/ELEVES/SNIR2021/lthomas/public_html/snir/Controleur/Controleur.php</file>
+            <file>file:/home/USERS/ELEVES/SNIR2021/lthomas/public_html/snir/index.php</file>
+            <file>file:/home/USERS/ELEVES/SNIR2021/lthomas/public_html/snir/Modele/autoCompletion.php</file>
         </group>
     </open-files>
 </project-private>
